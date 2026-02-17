@@ -531,17 +531,7 @@ body {
         flex-direction: column;
         gap: 15px;
     }
-    /* HERO TEXT */
-    .hero-content {
-        left: 20px;
-    }
-    .hero-content h1 {
-        font-size: 40px;
-        letter-spacing: 5px;
-    }
-    .hero-content h2 {
-        font-size: 22px;
-    }
+    
     /* PS SECTION */
     .ps-section {
         padding: 80px 20px;
@@ -565,6 +555,30 @@ body {
         text-align: center;
     }
 }
+@media (max-width: 768px) {
+
+    .hero {
+        height: 60vh;
+    }
+
+    .hero-content {
+        left: 20px;
+        right: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .hero-content h2 {
+        font-size: 18px;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+}
 
 
 /* -------- SMALL MOBILE -------- */
@@ -576,4 +590,5 @@ body {
     .footer-grid {
         grid-template-columns: 1fr;
     }
+
 }
